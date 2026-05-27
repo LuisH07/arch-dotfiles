@@ -1,0 +1,36 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor":"none",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": true,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical":"visible",
+    "workbench.browser.showInTitleBar": true,
+    "workbench.statusBar.visible": true,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.titleBarStyle": "native",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.initialHint": false,
+    "files.autoSave": "afterDelay",
+    "Lua.workspace.library": [
+    "/usr/share/hypr/stubs"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
