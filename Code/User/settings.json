@@ -22,7 +22,6 @@
     "window.titleBarStyle": "native",
     "editor.minimap.enabled": false,
     "terminal.integrated.initialHint": false,
-    "files.autoSave": "afterDelay",
     "Lua.workspace.library": [
     "/usr/share/hypr/stubs"
     ],
@@ -32,5 +31,6 @@
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "files.autoSave": "afterDelay"
 }
