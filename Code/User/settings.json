@@ -8,7 +8,7 @@
     "editor.rulers": [80, 120],
     "workbench.startupEditor":"none",
     "editor.renderLineHighlight": "gutter",
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
     "explorer.compactFolders": true,
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
@@ -32,5 +32,8 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
