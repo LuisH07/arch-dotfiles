@@ -1,6 +1,5 @@
 {
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "symbols",
     "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
     "editor.fontSize": 14,
@@ -35,5 +34,40 @@
     "files.autoSave": "afterDelay",
     "redhat.telemetry.enabled": false,
     "docker.extension.enableComposeLanguageServer": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never"
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "python.createEnvironment.trigger": "off",
+    "extensions.ignoreRecommendations": true,
+    "python.analysis.exclude": [
+        "**/node_modules/**",
+        "**/venv/**",
+        "**/.venv/**",
+        "**/__pycache__/**",
+        "**/.git/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.pytest_cache/**",
+        "**/.mypy_cache/**",
+        "**/env/**",
+        "**/lib/**"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "js/ts.suggest.completeFunctionCalls": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "git.decorations.enabled": false,
+    "git-blame.decoration.config.commitHighlight": false,
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/home/luishenrique/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/home/luishenrique/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.kubectl-path-linux": "/home/luishenrique/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+    },
+    "liveServer.settings.donotVerifyTags": true
 }
