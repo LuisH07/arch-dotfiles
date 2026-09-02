@@ -83,7 +83,8 @@
     "format-ethernet": "󰈀 {ipaddr}",
     "format-disconnected": "󰖪 offline",
     "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-    "max-length": 30
+    "max-length": 30,
+    "on-click": "kitty --title=\"NetWatch Manager\" --hold -e netwatch menu"
   },
   "bluetooth": {
     "format": " off",
