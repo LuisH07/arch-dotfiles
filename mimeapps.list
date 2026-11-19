@@ -1,6 +1,9 @@
-
 [Default Applications]
 x-scheme-handler/postman=Postman.desktop
 x-scheme-handler/insomnia=insomnia.desktop
 x-scheme-handler/figma=figma-linux.desktop
 x-scheme-handler/mailto=brave-browser.desktop
+x-scheme-handler/antigravity=antigravity.desktop
+
+[Added Associations]
+x-scheme-handler/antigravity=antigravity.desktop;

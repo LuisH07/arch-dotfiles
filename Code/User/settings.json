@@ -69,5 +69,36 @@
         "vscode-kubernetes.minikube-path-linux": "/home/luishenrique/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
         "vscode-kubernetes.kubectl-path-linux": "/home/luishenrique/.local/state/vs-kubernetes/tools/kubectl/kubectl"
     },
-    "liveServer.settings.donotVerifyTags": true
+    "liveServer.settings.donotVerifyTags": true,
+    "git-blame.config.showBlameInline": true,
+    "pgsql.serverGroups": [
+        {
+            "name": "Servers",
+            "id": "0F42811E-B784-4305-833B-B2E6DC0B9D2C",
+            "isDefault": true
+        }
+    ],
+    "pgsql.connections": [
+        {
+            "id": "EB6587CA-7A71-4330-B0E3-29F5F2A8BD9A",
+            "groupId": "0F42811E-B784-4305-833B-B2E6DC0B9D2C",
+            "authenticationType": "None",
+            "connectTimeout": 15,
+            "applicationName": "vscode-pgsql",
+            "clientEncoding": "utf8",
+            "sslmode": "prefer",
+            "sslRootCertMode": "none",
+            "server": "localhost",
+            "user": "luishenrique",
+            "password": "",
+            "database": "luishenrique",
+            "expiresOn": 0,
+            "emptyPasswordInput": true,
+            "profileName": "PostgreSQL Local — Luis",
+            "sshPassword": ""
+        }
+    ],
+    "markdown-preview-enhanced.enablePreviewZenMode": true,
+    "markdown-preview-enhanced.previewTheme": "vscode.css",
+    "chat.viewSessions.orientation": "stacked"
 }
