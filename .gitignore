@@ -7,6 +7,13 @@ Code/*
 Code/User/*
 !Code/User/settings.json
 !Code/User/keybindings.json
+Antigravity IDE/*
+!Antigravity IDE/User/
+Antigravity IDE/User/*
+!Antigravity IDE/User/settings.json
+!Antigravity IDE/User/keybindings.json
+Antigravity/
+antigravity/
 BraveSoftware/
 spotify/
 pulse/
