@@ -24,6 +24,26 @@ go/
 composer/
 yay/
 clipse/clipboard_history.json
+clipse/tmp_files/
+.vscode/
+GIMP/
+Insomnia/
+JetBrains/
+Kingsoft/
+Postman/
+QtProject.conf
+configstore/
+discord/
+dlv/
+figma-linux/
+figma-linux-next/
+gopls/
+jgit/
+kitty/*.bak
+nextjs-nodejs/
+opencode/
+qBittorrent/
+vlc/
 
 *.log
 *.cache
