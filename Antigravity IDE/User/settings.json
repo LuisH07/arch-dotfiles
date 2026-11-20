@@ -2,20 +2,22 @@
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "symbols",
     "workbench.startupEditor": "none",
-    "workbench.activityBar.location": "hidden",
-    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.enabled": true,
     "workbench.statusBar.visible": true,
-    "window.commandCenter": false,
-    "window.titleBarStyle": "native",
-    "breadcrumbs.enabled": false,
+    "window.commandCenter": true,
+    "window.titleBarStyle": "custom",
+    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
-    "editor.fontLigatures": false,
-    "editor.rulers": [80, 120],
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.renderLineHighlight": "gutter",
-    "editor.semanticHighlighting.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
     "editor.scrollbar.horizontal": "visible",
     "editor.scrollbar.vertical": "visible",
     "explorer.confirmDelete": false,
@@ -25,7 +27,7 @@
     "terminal.integrated.initialHint": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "extensions.ignoreRecommendations": true,
-    "git.decorations.enabled": false,
+    "git.decorations.enabled": true,
     "git-blame.decoration.config.commitHighlight": false,
     "git-blame.config.showBlameInline": true,
     "redhat.telemetry.enabled": false,
@@ -51,5 +53,6 @@
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "diffEditor.maxComputationTime": 0
 }
